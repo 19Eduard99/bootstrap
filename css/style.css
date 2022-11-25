@@ -1,0 +1,567 @@
+.header_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header_icon li {
+  list-style: none;
+}
+.header_icon li:first-of-type {
+  margin-right: 15px;
+  position: relative;
+  top: -3px;
+}
+.header_icon li:last-of-type {
+  margin-left: 7px;
+}
+
+.container {
+  max-width: 1064px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: 7px;
+}
+
+.nav-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+}
+
+.header {
+  padding-top: 15px;
+}
+
+.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_banner {
+  background-color: #F0EFEB;
+  padding: 90px 0 24px;
+}
+@media screen and (max-width: 991px) {
+  .main_banner {
+    text-align: center;
+  }
+}
+.main_banner img {
+  position: relative;
+  top: -90px;
+}
+@media screen and (max-width: 1227px) {
+  .main_banner img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main_banner img {
+    width: 100%;
+    top: 0;
+  }
+}
+.main_banner h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 42px;
+  line-height: 70px;
+  color: #000000;
+}
+.main_banner p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 33px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.btn-dark {
+  border-radius: 100px;
+  background: #000000;
+  padding: 7px 23px 9px;
+}
+
+.guides {
+  padding: 60px 0 0;
+}
+.guides h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 27px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.guides p {
+  max-width: 632px;
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.sellers {
+  padding: 88px 0 248px;
+}
+@media screen and (max-width: 991px) {
+  .sellers {
+    padding-bottom: 100px;
+  }
+}
+.sellers h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 52px;
+  text-align: center;
+  color: #000000;
+}
+.sellers .card {
+  border: none;
+  max-width: 309px;
+  display: inline-block;
+}
+.sellers .card .card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  margin: 27px 0 17px;
+  text-align: center;
+  color: #000000;
+}
+.sellers .card .card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #000000;
+}
+.sellers .card a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.shop {
+  padding: 76px 0 51px;
+  background: rgba(204, 204, 204, 0.3);
+}
+@media screen and (max-width: 991px) {
+  .shop {
+    text-align: center;
+  }
+}
+.shop h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 31px;
+  color: #000000;
+}
+.shop p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  color: #000000;
+}
+.shop a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.shop_center {
+  background: rgba(204, 204, 204, 0.6);
+  padding: 76px 0 51px;
+  text-align: right;
+}
+@media screen and (max-width: 991px) {
+  .shop_center {
+    text-align: center;
+  }
+}
+.shop_center h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 31px;
+  color: #000000;
+}
+.shop_center p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  color: #000000;
+}
+.shop_center a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.guides-unique {
+  padding: 190px 0 52px;
+}
+.guides-unique h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 69px;
+}
+.guides-unique article .s1::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #21F7EC;
+  border-radius: 50%;
+}
+.guides-unique article .s2::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #33D3BC;
+  border-radius: 50%;
+}
+.guides-unique article .s3::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #18A5C6;
+  border-radius: 50%;
+}
+.guides-unique article .s4::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #D38F62;
+  border-radius: 50%;
+}
+.guides-unique article .s5::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #F94C43;
+  border-radius: 50%;
+}
+.guides-unique article .s6::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #D399FF;
+  border-radius: 50%;
+}
+.guides-unique article p {
+  margin-top: 26px;
+  margin-bottom: 111px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+@media screen and (max-width: 688px) {
+  .guides-unique article p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 588px) {
+  .guides-unique article p {
+    font-size: 23px;
+  }
+}
+
+.such_as {
+  padding-bottom: 290px;
+}
+@media screen and (max-width: 893px) {
+  .such_as {
+    padding-bottom: 50px;
+  }
+}
+.such_as h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+.people {
+  background: #F0F0F0;
+  height: 480px;
+}
+@media screen and (max-width: 1013px) {
+  .people {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .people {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .people {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .people {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+.people article {
+  position: relative;
+  bottom: 188px;
+  margin: 0 20px;
+}
+@media screen and (max-width: 1013px) {
+  .people article {
+    position: relative;
+    bottom: 0;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 893px) {
+  .people article {
+    position: relative;
+    bottom: 0;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .people article {
+    position: relative;
+    bottom: 0;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .people article {
+    border-bottom: 1px solid black;
+    position: relative;
+    bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .people article {
+    border-bottom: 1px solid black;
+    position: relative;
+    bottom: 0;
+    padding-top: 40px;
+  }
+}
+.people article blockquote {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 35px;
+  padding-bottom: 34px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+.people article p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  padding-bottom: 44px;
+  text-align: center;
+  color: #000000;
+}
+.people article a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.in_touch {
+  padding: 79px 10px 88px;
+}
+.in_touch h2 {
+  margin-bottom: 26px;
+}
+.in_touch form .f-name input {
+  max-width: 153px;
+  margin: 0 30px 18px;
+}
+.in_touch form .f-mail {
+  width: 366px;
+}
+@media screen and (max-width: 375px) {
+  .in_touch form .f-mail {
+    width: 356px;
+  }
+}
+.in_touch form .subscribe input {
+  margin-top: 23px;
+  padding: 7px 23px 10px;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #020202;
+  padding: 51px 0 16px;
+}
+footer .footer_icon {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+footer .footer_icon li {
+  margin-right: 23px;
+  list-style: none;
+}
+footer .about {
+  padding-left: 70px;
+}
+footer .about p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+footer .about li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+footer .about li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .contact {
+  padding-left: 70px;
+}
+footer .contact p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+footer .contact li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+footer .contact li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .p-center {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
